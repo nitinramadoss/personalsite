@@ -20,3 +20,25 @@
     background-color: #35393e;
     border-radius: 18px;
 }
+
+.link {
+    color: #FFFFFF80;
+    margin: 8px;
+}
+
+.link:hover {
+    color: white;
+    text-decoration: none; 
+}
+
+.link:link { 
+    text-decoration: none; 
+}
+
+.link:visited { 
+    text-decoration: none; 
+}
+
+.link:active { 
+    text-decoration: none; 
+}

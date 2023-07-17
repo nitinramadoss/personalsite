@@ -20,9 +20,9 @@ const NavBar = () => {
                 </Navbar.Brand>
 
                 <Nav>
-                    <NavLink href="javascript:document.getElementById('home').scrollIntoView()">Home</NavLink>
-                    <NavLink href="javascript:document.getElementById('projectSection').scrollIntoView()">Projects</NavLink>
-                    <NavLink href="javascript:document.getElementById('skillsSection').scrollIntoView()">Skills</NavLink>
+                    <NavLink bsPrefix="link" href="javascript:document.getElementById('home').scrollIntoView()">Home</NavLink>
+                    <NavLink bsPrefix="link" href="javascript:document.getElementById('projectSection').scrollIntoView()">Projects</NavLink>
+                    <NavLink bsPrefix="link" href="javascript:document.getElementById('skillsSection').scrollIntoView()">Skills</NavLink>
                 </Nav>
 
                 <Navbar.Collapse className="justify-content-end">
