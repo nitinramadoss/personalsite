@@ -1,0 +1,52 @@
+html {
+  scroll-behavior: smooth;
+ }
+
+header {
+  position: relative;
+  background-color: black;
+  font-family: "Geologica";
+  padding-top: 10vmin;
+  height: 75vh;
+}
+
+header h1 {
+  margin-top: 20px;
+  margin-left: 20px;
+  color: white;
+}
+
+header h1:nth-child(2) {
+  margin-top: 0px;
+  margin-left: 40px;
+  font-size: 1rem;
+  color: white;
+}
+
+#projectTitle {
+  color: white;
+  width: fit-content;
+  border-end-end-radius: 18px;
+  border-end-start-radius: 18px;
+  background-color: black;
+  font-family: "Geologica";
+  padding: 20px;
+  margin-left: calc(10vmin + 120px);
+}
+
+#projectSection {
+  justify-content: center;
+  align-items: center;
+  margin: 20px;
+  margin-bottom: 40px;
+}
+
+#skillsSection {
+  background-color: #000000;
+  font-family: "Geologica";
+  padding: 60px;
+  padding-bottom: 20px;
+  color: white;
+  justify-content: center;
+  align-items: center;
+}

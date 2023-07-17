@@ -1,0 +1,7 @@
+.demo {
+    width: 100%;
+    height: auto;
+    object-fit: contain;
+    border-radius: 18px;
+    box-shadow: 6px 6px 2px 1px rgba(0, 0, 0, .2);
+}

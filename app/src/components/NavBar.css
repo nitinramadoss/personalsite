@@ -1,0 +1,22 @@
+.navbar,
+.navbar-default {
+    background-color: black !important;
+    width: 100%;
+    position: fixed;
+    z-index: 100;
+}
+
+.socialMediaButtons {
+    position: relative;
+    float: right;
+}
+
+.smb {
+    float: right;
+    margin-left: 30px;
+}
+
+#brandImg {
+    background-color: #35393e;
+    border-radius: 18px;
+}

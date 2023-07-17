@@ -1,0 +1,28 @@
+#title {
+    margin-top: 10px;
+    margin-left: 40px;
+    width: fit-content;
+    color:white;
+    font-size: 3.5rem;
+    animation: fadeInAnimation ease 4s;
+    animation-iteration-count: infinite;
+    animation-fill-mode: forwards;
+}
+
+@keyframes fadeInAnimation {
+    0% {
+        opacity: 0;
+    }
+
+    37% {
+        opacity: 1;
+    }
+
+    75% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 0;
+    }
+}

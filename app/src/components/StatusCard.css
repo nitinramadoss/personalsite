@@ -1,0 +1,80 @@
+#statusCard {
+    position: relative;
+    float: right;
+    margin-right: 20%;
+    background-color: #222222;
+    width: fit-content;
+    height: fit-content;
+    color: white;
+    border-radius: 18px;
+    border-color: white;
+    padding-right: 20px;
+    padding-bottom: 20px;
+    display: flex;
+    flex-direction: row;
+}
+
+#statusCard p {
+    color: white;
+}
+
+#statusCard div {
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    margin-top: 10px;
+    margin-left: 0px;
+}
+
+#statusCard div div {
+    display: flex;
+    flex-direction: row;
+}
+
+#statusCard div p {
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.statusTag {
+    font-size: 0.8rem;
+}
+
+#statusCard img {
+    display: block;
+    border-radius: 50%;
+    object-fit: cover;
+    max-width: 125px;
+    max-height: 125px;
+    padding: 20px;
+}
+
+#profileEducation {
+    position: absolute;
+    background-color: #222222;
+    padding: 20px;
+    height: fit-content;
+    border-radius: 18px;
+    width: 25ch;
+    left: 95%;
+    bottom: 25%;
+    border-style: solid;
+    border-width: thin;
+    border-color: black;
+    box-shadow: 12px 12px 2px 1px rgba(0, 0, 0, 0.2);
+}
+
+#profileExperience{
+    position: absolute;
+    background-color: #222222;
+    padding: 20px;
+    height: fit-content;
+    border-radius: 18px;
+    width: 25ch;
+    left: 60%;
+    top: 80%;
+    border-style: solid;
+    border-width: thin;
+    border-color: black;
+    box-shadow: 12px 12px 2px 1px rgba(0, 0, 0, 0.2);
+}

@@ -1,0 +1,88 @@
+.project {
+    margin: auto;
+    position: relative;
+    background-color: #eff0f1;
+    width: 750px;
+    border-radius: 18px;
+    margin-top: 60px;
+}
+
+.demoContainer {
+    padding: 60px;
+    padding-bottom: 0px;
+    width: 75%;
+    margin: auto;
+    position: relative;
+}
+
+.D,
+.CB,
+.DVR {
+    padding-bottom: 33px;
+}
+
+.LL {
+    padding-bottom: 59px;
+}
+
+.IC {
+    padding-bottom: 1px;
+}
+
+
+.demoPhoneContainer {
+    padding-top: 30px;
+    padding-left: 60px;
+    padding-right: 60px;
+    padding-bottom: 5px;
+    width: 40%;
+    margin: auto;
+    position: relative;
+}
+
+.demoExtContainer {
+    position: absolute;
+    top: 20%;
+    right: calc(100% - 40px - 60px);
+    width: 30%;
+}
+
+.demoExtPhoneContainer {
+    position: absolute;
+    top: 20%;
+    right: calc(100% - 60px);
+    width: 45%;
+}
+
+.demoExtPlayerContainer {
+    position: absolute;
+    top: calc(100% - 120px);
+    left: calc(60%);
+    width: 50%;
+}
+
+
+.descContainer {
+    font-family: "Geologica";
+    padding: 40px;
+}
+
+@media screen and (max-width: 768px){
+    .project {
+        width: 100%;
+    }
+
+    .demoContainerIC,
+    .demoPhoneContainer,
+    .demoContainer {
+        padding: 20px;
+        padding-top: 40px;
+    }
+
+    .demoExtPlayerContainer,
+    .demoExtPhoneContainer,
+    .demoExtContainer,
+    .demoExtPlayerContainer {
+        visibility: hidden;
+    }
+}

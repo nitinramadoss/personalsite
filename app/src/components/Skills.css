@@ -1,0 +1,25 @@
+#skills {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin-right: 20px;
+    width: 75vw;
+}
+
+#copyright {
+    margin-top: 60px;
+}
+
+.skillBox {
+    background-color: #343A40;
+    width: fit-content;
+    height: fit-content;
+    padding: 8px;
+    margin: 5px;
+    border-radius: 8px;
+}
+
+.skillBox:hover {
+    background-color: white;
+    color: black;
+}
