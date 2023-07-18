@@ -1,8 +1,7 @@
-import React, { useEffect, useState } from "react";
+import React from "react";
 import Demo from './Demo.js';
 import Player from "./Player.js";
 import Grid from '@mui/material/Grid';
-import LiveLink from "../images/livelink.png"
 import LiveLinkImg2 from "../images/livelinkimg2.png"
 import Livelinkvideo from "../videos/livelink.gif";
 import Canvasboard from "../images/canvasboard.png"

@@ -1,5 +1,4 @@
-import React, { useEffect, useState } from "react";
-import ProfileImg from "../images/profilecartoon.png";
+import React from "react";
 import "./BgAnimation.css";
 
 const BgAnimation = ({ img }) => {

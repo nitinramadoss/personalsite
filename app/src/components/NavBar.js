@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from "react";
+import React from "react";
 import { Nav, Navbar, NavLink, Badge } from "react-bootstrap";
 import SocialMediaButtons from './SocialMediaButtons.js';
 import ProfileImg from "../images/profilecartoon.png";
@@ -9,7 +9,7 @@ const NavBar = () => {
         <Navbar className="navbar" collapseOnSelect expand="sm" bg="dark" variant="dark" sticky="top">
             <Navbar.Toggle aria-controls="navbarScroll" data-bs-toggle="collapse" data-bs-target="#navbarScroll" />
             <Navbar.Collapse id="navbarScroll">
-                <Navbar.Brand href="javascript:document.getElementById('home').scrollIntoView()">
+                <Navbar.Brand href="#home">
                     <img id="brandImg"
                         src={ProfileImg}
                         width="30"
@@ -20,9 +20,9 @@ const NavBar = () => {
                 </Navbar.Brand>
 
                 <Nav>
-                    <NavLink bsPrefix="link" href="javascript:document.getElementById('home').scrollIntoView()">Home</NavLink>
-                    <NavLink bsPrefix="link" href="javascript:document.getElementById('projectSection').scrollIntoView()">Projects</NavLink>
-                    <NavLink bsPrefix="link" href="javascript:document.getElementById('skillsSection').scrollIntoView()">Skills</NavLink>
+                    <NavLink bsPrefix="link" href="#home">Home</NavLink>
+                    <NavLink bsPrefix="link" href="#projectSection">Projects</NavLink>
+                    <NavLink bsPrefix="link" href="#skillsSection">Skills</NavLink>
                 </Nav>
 
                 <Navbar.Collapse className="justify-content-end">
