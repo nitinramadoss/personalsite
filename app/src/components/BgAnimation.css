@@ -58,12 +58,12 @@
 
 @media screen and (max-width: 1100px){
     .circle {
-        visibility: hidden;
+        display: none;
     }
 }
 
 @media screen and (max-height: 800px){
     .circle {
-        visibility: hidden;
+        display: none;
     }
 }

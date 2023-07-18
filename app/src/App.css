@@ -6,8 +6,9 @@ header {
   position: relative;
   background-color: black;
   font-family: "Geologica";
-  padding-top: 12vmin;
+  padding-top: 100px;
   height: 75vh;
+  min-width: 300px;
 }
 
 header h1 {
@@ -37,6 +38,7 @@ header h1:nth-child(2) {
 #projectSection {
   justify-content: center;
   align-items: center;
+  min-width: 250px;
   margin: 20px;
   margin-bottom: 40px;
 }
@@ -45,8 +47,29 @@ header h1:nth-child(2) {
   background-color: #000000;
   font-family: "Geologica";
   padding: 60px;
+  min-width: 300px;
   padding-bottom: 20px;
   color: white;
   justify-content: center;
   align-items: center;
+}
+
+@media screen and (max-width: 768px){
+  .project {
+      width: 100%;
+  }
+
+  .demoContainerIC,
+  .demoPhoneContainer,
+  .demoContainer {
+      padding: 20px;
+      padding-top: 40px;
+  }
+
+  .demoExtPlayerContainer,
+  .demoExtPhoneContainer,
+  .demoExtContainer,
+  .demoExtPlayerContainer {
+      display: none;
+  }
 }

@@ -4,7 +4,7 @@ import "./BgAnimation.css";
 
 const BgAnimation = ({ img }) => {
     return (
-        <div>
+        <div id="bgAnimation">
             <div className="circle one" />
             <div className="circle three" />
             <div className="circle two" />
