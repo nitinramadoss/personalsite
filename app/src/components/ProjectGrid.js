@@ -102,7 +102,7 @@ const ProjectGrid = () => {
                         <p><em>Digital board for video conferencing</em></p>
                         <div className="descContainerBody">
                             <p>
-                                Enables educators to draw out concepts and diagrams with vocal commands and manipulate them on-screen with their hands
+                                Enables educators to draw out concepts and diagrams with vocal commands and manipulate them on-screen with their hands.
                             </p>
                         </div>
                     </div>
