@@ -1,47 +1,39 @@
 import React from "react";
-import ProfileImg from "../images/profilecartoon.png";
-import Circle from '@mui/icons-material/Circle';
+import ProfileImg from "../images/newprofilepic.png";
 import SchoolIcon from '@mui/icons-material/School';
-import StarIcon from '@mui/icons-material/Star';
+import WorkIcon from '@mui/icons-material/Work';
+import LocationOnIcon from '@mui/icons-material/LocationOn';
+import InfoIcon from '@mui/icons-material/Info';
 import "./StatusCard.css";
 
 
 const StatusCard = () => {
     return (
-        <div id="statusCard">
-            <img src={ProfileImg} alt="Avatar"></img>
-            <div>
-                <div>
-                    <Circle size="small" style={{ color: "green" }} />
-                    <p>Online</p>
-                </div>
-
-                <p className="statusTag"><b>Status:</b> Trying</p>
-                <p className="statusTag"><b>Member since:</b> 7/12/2001</p>
+        <div>
+            <img id="avatar" src={ProfileImg} alt="Avatar"></img>
+            <div id="bioBox">
+                <p>
+                    Hey, I'm a new grad software engineer who's interested in building challenging applications that can provide real solutions to real problems. I have over 10 years of experience developing android apps, websites, extensions, AR/VR apps, and more. I'm always eager to learn and ready to try something new.
+                </p>
             </div>
-
-            {/* <div id="profileEducation">
-                <div>
+            <div id="infoContainer">
+                <div className="infoBox">
+                    <WorkIcon size="small" style={{ color: "brown" }} />
+                    <p className="infoBoxText">Software Engineer</p>
+                </div>
+                <div className="infoBox two">
+                    <LocationOnIcon size="small" style={{ color: "red" }} />
+                    <p className="infoBoxText">Mountain View, California</p>
+                </div>
+                <div className="infoBox three">
                     <SchoolIcon size="small" style={{ color: "orange" }} />
-                    <p>Education</p>
+                    <p className="infoBoxText">BS in CS, English Minor - UF '23</p>
                 </div>
-                <p className="statusTag">Graduated: 05/05/23</p>
-                <p className="statusTag">Degree: BS in CS, Minor in English</p>
-                <p className="statusTag">Institution: University of Florida</p>
+                <div className="infoBox four">
+                    <InfoIcon size="small" style={{ color: "lightblue" }} />
+                    <p className="infoBoxText">Developer, Writer, and Student</p>
+                </div>
             </div>
-
-
-            <div id="profileExperience">
-                <div>
-                    <StarIcon size="small" style={{ color: "yellow" }} />
-                    <p>Experience</p>
-                </div>
-                <p className="statusTag">Exp: 10+ years coding</p>
-                <p className="statusTag">Internships: 3</p>
-                <p className="statusTag">Hackathons: 11</p>
-                <p className="statusTag">Personal Projects: 30+</p>
-                <p className="statusTag">Programming Languages: 7+</p>
-            </div> */}
         </div>
     );
 }

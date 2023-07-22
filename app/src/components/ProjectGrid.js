@@ -98,7 +98,7 @@ const ProjectGrid = () => {
                     </div>
 
                     <div className="descContainer">
-                        <h2>CanvasBoard</h2>
+                        <h2>Canvas Board</h2>
                         <p><em>Digital board for video conferencing</em></p>
                         <div className="descContainerBody">
                             <p>

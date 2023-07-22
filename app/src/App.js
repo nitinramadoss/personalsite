@@ -1,5 +1,6 @@
 import './App.css';
 import BgAnimation from './components/BgAnimation.js';
+import StatusCard from "./components/StatusCard.js";
 import NavBar from './components/NavBar.js';
 import ProjectGrid from './components/ProjectGrid.js';
 import Skills from './components/Skills';
@@ -11,7 +12,9 @@ function App() {
       <header id="home">
         <h1>Nitin Ramadoss</h1>
         <h1>"Build whatever you want" - me (2023)</h1>
-        <BgAnimation/>
+        <StatusCard/>
+        <div className='spacer'/>
+        {/* <BgAnimation/> */}
       </header>
       <section id="projectSection">
         <ProjectGrid />

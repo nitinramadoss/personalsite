@@ -3,9 +3,10 @@
     position: relative;
     background-color: #eff0f1;
     width: 750px;
+    min-width: 240px;
     border-radius: 18px;
     margin-top: 60px;
-}
+    }
 
 .demoContainer {
     padding: 60px;

@@ -7,8 +7,8 @@ header {
   background-color: black;
   font-family: "Geologica";
   padding-top: 100px;
-  height: 75vh;
-  min-width: 300px;
+  min-width: 290px;
+  height: fit-content;
 }
 
 header h1 {
@@ -47,11 +47,16 @@ header h1:nth-child(2) {
   background-color: #000000;
   font-family: "Geologica";
   padding: 60px;
-  min-width: 300px;
   padding-bottom: 20px;
+  min-width: 290px;
   color: white;
   justify-content: center;
   align-items: center;
+}
+
+.spacer {
+  height: 20vh;
+  width: 100%;
 }
 
 @media screen and (max-width: 768px){
@@ -71,5 +76,11 @@ header h1:nth-child(2) {
   .demoExtContainer,
   .demoExtPlayerContainer {
       display: none;
+  }
+}
+
+@media screen and (max-width: 750px){
+  .spacer{
+      height: 300px;
   }
 }

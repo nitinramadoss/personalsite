@@ -1,80 +1,83 @@
-#statusCard {
-    position: relative;
-    float: right;
-    margin-right: 20%;
-    background-color: #222222;
-    width: fit-content;
-    height: fit-content;
-    color: white;
-    border-radius: 18px;
-    border-color: white;
-    padding-right: 20px;
-    padding-bottom: 20px;
-    display: flex;
-    flex-direction: row;
+#avatar {
+    position: absolute;
+    bottom: 0;
+    right: 10%;
+    width: 30vmax;
+    max-width: 800px;
 }
 
-#statusCard p {
-    color: white;
-}
-
-#statusCard div {
+#infoContainer {
+    position: absolute;
     display: flex;
     flex-direction: column;
-    justify-content: left;
-    margin-top: 10px;
-    margin-left: 0px;
+    width: fit-content;
+    justify-content: right;
+    align-items: right;
+    overflow: hidden;
+    margin: auto;
+    bottom: 10%;
+    right: calc(30vmax + 10% - 80px);
 }
 
-#statusCard div div {
+#bioBox {
+    position: relative;
+    background-color: #222222;
+    border-radius: 18px;
+    width: 40ch;
+    color: white;
+    margin: 20px;
+    margin-top: 40px;
+    padding: 20px;
+}
+
+.infoBox {
     display: flex;
     flex-direction: row;
+    padding: 16px;
+    padding-bottom: 0px;
+    margin-left: auto;
+    margin-right: 0;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    width: fit-content;
+    color: white;
 }
 
-#statusCard div p {
+.infoBox.two {
+    margin-right: 20px;
+}
+
+.infoBox.three {
+    margin-right: 40px;
+}
+
+.infoBox.four {
+    margin-right: 60px;
+}
+
+.infoBoxText {
     margin-left: 10px;
-    margin-right: 10px;
 }
 
-.statusTag {
-    font-size: 0.8rem;
+@media screen and (max-width: 1530px), (max-height: 680px){
+    #infoContainer{
+        display: none;
+    }
 }
 
-#statusCard img {
-    display: block;
-    border-radius: 50%;
-    object-fit: cover;
-    max-width: 125px;
-    max-height: 125px;
-    padding: 20px;
+@media screen and (max-width: 750px){
+    #avatar{
+        width: 250px;
+    }
+
+    #bioBox {
+        width: 80%;
+        height: fit-content;
+    }
 }
 
-#profileEducation {
-    position: absolute;
-    background-color: #222222;
-    padding: 20px;
-    height: fit-content;
-    border-radius: 18px;
-    width: 25ch;
-    left: 95%;
-    bottom: 25%;
-    border-style: solid;
-    border-width: thin;
-    border-color: black;
-    box-shadow: 12px 12px 2px 1px rgba(0, 0, 0, 0.2);
-}
-
-#profileExperience{
-    position: absolute;
-    background-color: #222222;
-    padding: 20px;
-    height: fit-content;
-    border-radius: 18px;
-    width: 25ch;
-    left: 60%;
-    top: 80%;
-    border-style: solid;
-    border-width: thin;
-    border-color: black;
-    box-shadow: 12px 12px 2px 1px rgba(0, 0, 0, 0.2);
+@media screen and (max-width: 950px){
+    #avatar{
+        right: 5%;
+    }
 }
