@@ -13,7 +13,7 @@ const StatusCard = () => {
             <img id="avatar" src={ProfileImg} alt="Avatar"></img>
             <div id="bioBox">
                 <p>
-                    Hey, I'm a new grad software engineer who's interested in building challenging applications that can provide real solutions to real problems. I have over 10 years of experience developing android apps, websites, extensions, AR/VR apps, and more. I'm always eager to learn and ready to try something new.
+                    Hey, I'm a new grad software engineer who's interested in building challenging applications that can provide real solutions to real problems. I have over 10 years of experience developing Android apps, websites, extensions, AR/VR apps, and more. I'm always eager to learn and ready to try something new.
                 </p>
             </div>
             <div id="infoContainer">

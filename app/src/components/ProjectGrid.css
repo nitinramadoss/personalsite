@@ -68,6 +68,13 @@
     padding: 40px;
 }
 
+.open {
+    position: absolute;
+    top: 0;
+    right: 0;
+    padding: 20px;
+}
+
 @media screen and (max-width: 768px){
     .project {
         width: 100%;
@@ -83,5 +90,9 @@
     .demoExtContainer,
     .demoExtPlayerContainer {
         display: none;
+    }
+
+    .open {
+        padding: 8px;
     }
 }

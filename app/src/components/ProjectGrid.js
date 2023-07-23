@@ -2,6 +2,8 @@ import React from "react";
 import Demo from './Demo.js';
 import Player from "./Player.js";
 import Grid from '@mui/material/Grid';
+import IconButton from '@mui/material/IconButton';
+import OpenInNewIcon from '@mui/icons-material/OpenInNew';
 import LiveLinkImg2 from "../images/livelinkimg2.png"
 import Livelinkvideo from "../videos/livelink.gif";
 import Canvasboard from "../images/canvasboard.png"
@@ -23,6 +25,11 @@ const ProjectGrid = () => {
         <Grid container rowSpacing={1} columnSpacing={{ xs: 1, sm: 2, md: 3 }} justifyContent="center" alignItems="center">
             <Grid item key={0}>
                 <div className="project">
+                    <div className="open">
+                        <IconButton href={"https://devpost.com/software/livelink"} target="no_blank" aria-label="open" size="large">
+                            <OpenInNewIcon fontSize="inherit" />
+                        </IconButton>
+                    </div>
                     <div className="demoContainer LL">
                         <Demo img={LiveLinkImg2} />
                         <div className="demoExtPlayerContainer">
@@ -44,6 +51,11 @@ const ProjectGrid = () => {
 
             <Grid item key={1}>
                 <div className="project">
+                    <div className="open">
+                        <IconButton href={"https://pub.dev/packages/image_compare"} target="no_blank" aria-label="open" size="large">
+                            <OpenInNewIcon fontSize="inherit" />
+                        </IconButton>
+                    </div>
                     <div className="demoContainer IC">
                         <Demo img={Imagecompare} />
                         <div className="demoExtPlayerContainer">
@@ -65,6 +77,11 @@ const ProjectGrid = () => {
 
             <Grid item key={2}>
                 <div className="project">
+                    <div className="open">
+                        <IconButton href={"https://play.google.com/store/apps/details?id=com.trishr.okay_kolam"} target="no_blank" aria-label="open" size="large">
+                            <OpenInNewIcon fontSize="inherit" />
+                        </IconButton>
+                    </div>
                     <div className="demoPhoneContainer">
                         <Demo img={Kolam} />
                         <div className="demoExtPhoneContainer">
@@ -86,6 +103,11 @@ const ProjectGrid = () => {
 
             <Grid item key={3}>
                 <div className="project">
+                    <div className="open">
+                        <IconButton href={"https://devpost.com/software/canvas-board"} target="no_blank" aria-label="open" size="large">
+                            <OpenInNewIcon fontSize="inherit" />
+                        </IconButton>
+                    </div>
                     <div className="demoContainer CB">
                         <Player video={Canvasboardvideo} />
 
@@ -111,6 +133,11 @@ const ProjectGrid = () => {
 
             <Grid item key={4}>
                 <div className="project">
+                    <div className="open">
+                        <IconButton href={"https://devpost.com/software/docvr-virtual-reality-ai-health-assitant"} target="no_blank" aria-label="open" size="large">
+                            <OpenInNewIcon fontSize="inherit" />
+                        </IconButton>
+                    </div>
                     <div className="demoContainer DVR">
                         <Player video={Docvrvideo} />
                         <div className="demoExtPlayerContainer">
@@ -130,9 +157,14 @@ const ProjectGrid = () => {
                 </div>
             </Grid>
 
-            
+
             <Grid item key={5}>
                 <div className="project">
+                    <div className="open">
+                        <IconButton href={"https://chrome.google.com/webstore/detail/deena/dihgnlgbocedofkdcipdhagdhicdppjf"} target="no_blank" aria-label="open" size="large">
+                            <OpenInNewIcon fontSize="inherit" />
+                        </IconButton>
+                    </div>
                     <div className="demoContainer D">
                         <Player video={Deenavideo} />
                         <div className="demoExtContainer">
@@ -148,7 +180,7 @@ const ProjectGrid = () => {
                         <p><em>Chrome extension for personal care</em></p>
                         <div className="descContainerBody">
                             <p>
-                             Enables users to anonymously rate Amazon personal care products across a range of characteristics.
+                                Enables users to anonymously rate Amazon personal care products across a range of characteristics.
                             </p>
                         </div>
                     </div>
