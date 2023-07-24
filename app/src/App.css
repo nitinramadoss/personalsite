@@ -1,6 +1,7 @@
 html {
   scroll-behavior: smooth;
- }
+  background-color: black;
+}
 
 header {
   position: relative;
@@ -11,13 +12,13 @@ header {
   height: fit-content;
 }
 
-header h1 {
+#name {
   margin-top: 20px;
   margin-left: 20px;
   color: white;
 }
 
-header h1:nth-child(2) {
+#quote {
   margin-top: 0px;
   margin-left: 40px;
   font-size: 1rem;
@@ -41,6 +42,7 @@ header h1:nth-child(2) {
   min-width: 250px;
   margin: 20px;
   margin-bottom: 40px;
+  background-color: white;
 }
 
 #skillsSection {
@@ -56,31 +58,41 @@ header h1:nth-child(2) {
 
 .spacer {
   height: 20vh;
+  max-height: 195px;
   width: 100%;
 }
 
-@media screen and (max-width: 768px){
+@media screen and (max-width: 768px) {
   .project {
-      width: 100%;
+    width: 100%;
   }
 
   .demoContainerIC,
   .demoPhoneContainer,
   .demoContainer {
-      padding: 20px;
-      padding-top: 40px;
+    padding: 20px;
+    padding-top: 40px;
   }
 
   .demoExtPlayerContainer,
   .demoExtPhoneContainer,
   .demoExtContainer,
   .demoExtPlayerContainer {
-      display: none;
+    display: none;
   }
 }
 
-@media screen and (max-width: 750px){
-  .spacer{
-      height: 300px;
+@media screen and (max-width: 750px) {
+  .spacer {
+    max-height: 300px;
+    height: 300px;
+  }
+}
+
+@media screen and (min-width: 2300px) {
+  #nameContainer {
+    width: calc(40ch + 40px);
+    margin-right: 60%;
+    margin-left: auto;
   }
 }

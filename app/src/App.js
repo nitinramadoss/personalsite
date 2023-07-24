@@ -10,11 +10,13 @@ function App() {
     <div className="App">
       <NavBar />
       <header id="home">
-        <h1>Nitin Ramadoss</h1>
-        <h1>"Build whatever you want" - me (2023)</h1>
-        <StatusCard/>
-        <div className='spacer'/>
-        {/* <BgAnimation/> */}
+        <div id= "nameContainer">
+          <h1 id='name'>Nitin Ramadoss</h1>
+          <h1 id='quote'>"Build whatever you want" - me (2023)</h1>
+        </div>
+        <BgAnimation/>
+        <StatusCard />
+        <div className='spacer' />
       </header>
       <section id="projectSection">
         <ProjectGrid />

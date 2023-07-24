@@ -8,6 +8,7 @@ const BgAnimation = ({ img }) => {
             <div className="circle three" />
             <div className="circle two" />
             <div className="circle four"/>
+            <div className="circle five"/>
         </div>
     );
 }

@@ -3,7 +3,7 @@
     bottom: 0;
     right: 10%;
     width: 30vmax;
-    max-width: 800px;
+    max-width: 580px;
 }
 
 #infoContainer {
@@ -79,5 +79,22 @@
 @media screen and (max-width: 950px){
     #avatar{
         right: 5%;
+    }
+}
+
+@media screen and (min-width: 2300px){
+    #infoContainer{
+        /* right: calc(580px + 10% - 80px); */
+        left: 50%;
+
+    }
+
+    #avatar {
+        left: calc(58%);
+    }
+
+    #bioBox {
+        margin-right: 60%;
+        margin-left: auto;
     }
 }
