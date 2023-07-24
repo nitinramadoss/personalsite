@@ -57,7 +57,8 @@ header {
 }
 
 .spacer {
-  height: 20vh;
+  /* height: calc(30vmax - 250px); */
+  height: 8vmax;
   max-height: 195px;
   width: 100%;
 }
@@ -89,7 +90,7 @@ header {
   }
 }
 
-@media screen and (min-width: 2300px) {
+@media screen and (min-width: 2100px) {
   #nameContainer {
     width: calc(40ch + 40px);
     margin-right: 60%;

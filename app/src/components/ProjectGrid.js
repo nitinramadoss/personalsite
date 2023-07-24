@@ -58,7 +58,7 @@ const ProjectGrid = () => {
                     </div>
                     <div className="demoContainer IC">
                         <Demo img={Imagecompare} />
-                        <div className="demoExtPlayerContainer">
+                        <div className="demoExtPlayerContainer ICP">
                             <Demo img={ImagecompareImg2} />
                         </div>
                     </div>

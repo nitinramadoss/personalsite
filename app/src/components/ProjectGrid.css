@@ -6,7 +6,7 @@
     min-width: 240px;
     border-radius: 18px;
     margin-top: 60px;
-    }
+}
 
 .demoContainer {
     padding: 60px;
@@ -75,7 +75,7 @@
     padding: 20px;
 }
 
-@media screen and (max-width: 768px){
+@media screen and (max-width: 768px) {
     .project {
         width: 100%;
     }
@@ -94,5 +94,33 @@
 
     .open {
         padding: 8px;
+    }
+}
+
+@media screen and (1360px <= width <= 1600px) {
+    .project {
+        width: 650px;
+    }
+
+    .D,
+    .CB,
+    .DVR {
+        padding-bottom: 25px;
+    }
+
+    .LL {
+        padding-bottom: 48px;
+    }
+
+    .IC {
+        padding-bottom: 0px;
+    }
+
+    .demoPhoneContainer {
+        padding-bottom: 25px;
+    }
+
+    .ICP {
+        top: calc(100% - 80px);
     }
 }

@@ -59,9 +59,15 @@
     margin-left: 10px;
 }
 
-@media screen and (max-width: 1530px), (max-height: 680px){
+@media screen and (max-width: 1359px), (max-height: 680px){
     #infoContainer{
         display: none;
+    }
+}
+
+@media screen and (1360px <= width <= 1600px) { 
+    #infoContainer {
+        bottom: 10px;
     }
 }
 
@@ -82,7 +88,7 @@
     }
 }
 
-@media screen and (min-width: 2300px){
+@media screen and (min-width: 2100px){
     #infoContainer{
         /* right: calc(580px + 10% - 80px); */
         left: 50%;
