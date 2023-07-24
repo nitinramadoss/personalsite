@@ -99,10 +99,3 @@
         left: calc(58%);
     }
 }
-
-@media screen and (min-width: 3000px){
-    #bioBox {
-        margin-right: 60%;
-        margin-left: auto;
-    }
-}
