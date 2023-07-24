@@ -29,16 +29,16 @@
 }
 
 .circle.three {
-    width: 50px;
-    height: 50px;
-    left: 10%;
+    width: 40px;
+    height: 40px;
+    left: 30%;
     top: 60%;
 } 
 
 .circle.four {
-    width: 25px;
-    height: 25px;
-    left: 5%;
+    width: 15px;
+    height: 15px;
+    left: 40%;
     top: 20%;
 }
 
@@ -67,3 +67,10 @@
         display: block;
     }
 }
+
+@media screen and (min-width: 3000px){
+    .circle {
+        display: none;
+    }
+}
+
